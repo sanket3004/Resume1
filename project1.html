@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 Details</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 15px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    header nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    header nav a.logo {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    header nav ul {
+      display: flex;
+      gap: 20px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    header nav ul li a:hover {
+      color: #f0a500;
+    }
+
+    section#project-details {
+      margin-top: 80px;
+      padding: 60px 20px;
+      background-color: #fff;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-image {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 36px;
+      color: #333;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #666;
+      line-height: 1.8;
+      margin: 15px 0;
+    }
+
+    .technologies, .project-demo {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+
+    .technologies ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .technologies ul li {
+      background-color: #f0a500;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+
+    .btn {
+      background-color: #f0a500;
+      color: #fff;
+      padding: 12px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e68a00;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">My Portfolio</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Project Details Section -->
+  <section id="project-details">
+    <div class="container">
+      <h2>Project 1: Awesome Web App</h2>
+      <img src="https://via.placeholder.com/800x600" alt="Project 1 Image" class="project-image">
+      <p><strong>Description:</strong> This is an awesome web app that solves a common problem in an innovative way. It's built using modern web technologies, and it has an intuitive user interface that enhances user experience.</p>
+
+      <div class="technologies">
+        <h3>Technologies Used:</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>Express</li>
+        </ul>
+      </div>
+
+      <div class="project-demo">
+        <h3>View Project Demo:</h3>
+        <a href="https://www.example.com/project1" target="_blank" class="btn">Visit Project</a>
+      </div>
+
+      <p><strong>Challenges Faced:</strong> The main challenge was ensuring cross-browser compatibility and performance optimization. We tackled this by using progressive enhancement and lazy loading techniques.</p>
+
+      <p><strong>Outcome:</strong> The project was successfully launched and received positive feedback from users, with a noticeable increase in engagement.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

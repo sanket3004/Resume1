@@ -78,11 +78,8 @@ Copyright (c) 2018 - ThemePaa
             speed: 200,
             loop:true,
             strings: [
-              'Illustrator',
-              'Programmer',
-              'Graphic Designer',
-              'Web-Developer',
-              '2D Animator'
+              'Data Analytics',
+              'Machine Learning',
             ],
             breakLines: false
         }); 
@@ -136,7 +133,7 @@ Copyright (c) 2018 - ThemePaa
             resizable: false,
             itemSelector: '.portfolio-item',
             layoutMode: 'masonry',
-            filter: '*'
+            filter: '.projects'
           });
           //Filtering items on portfolio.html
           var portfolioFilter = $('.filter li');
